@@ -1,18 +1,17 @@
 "----------------------------------------
-     Search
+"     Search
 "----------------------------------------
+set t_Co=256
 " インクリメンタル検索 (検索ワードの最初の文字を入力した時点で検索が開始)
 set incsearch
 " 検索結果をハイライト表示
 set hlsearch
 
 "----------------------------------------
-     Display
+"     Display
 "----------------------------------------
 " ウィンドウの右下にまだ実行していない入力中のコマンドを表示
 set showcmd
-" 行末のスペースを可視化
-set listchars=tab:^\ ,trail:
 " タブキー押下時に挿入される文字幅を指定
 set softtabstop=2
 set guioptions-=T
@@ -21,3 +20,6 @@ set guioptions-=T
 set showmatch
 " 行番号の表示
 set number
+" カラースキーム設定
+syntax on
+colorscheme molokai
