@@ -10,6 +10,8 @@ set hlsearch
 "----------------------------------------
 "     Display
 "----------------------------------------
+syntax on
+colorscheme molokai
 " ウィンドウの右下にまだ実行していない入力中のコマンドを表示
 set showcmd
 " タブキー押下時に挿入される文字幅を指定
@@ -21,5 +23,3 @@ set showmatch
 " 行番号の表示
 set number
 " カラースキーム設定
-syntax on
-colorscheme molokai
